@@ -1,38 +1,39 @@
 <template>
-  <v-app>
+  <v-app dark>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span class="font-weight-light">Countdown to </span>
+        <span class="death-title font-weight-black">DEATH</span>
+
       </v-toolbar-title>
-      <v-spacer />
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
     </v-toolbar>
 
     <v-content>
-      <HelloWorld />
+      <v-container>
+        <main-layout />
+      </v-container>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+
+import MainLayout from './components/MainLayout.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    MainLayout,
   },
   data() {
     return {
-      //
+      ironmanDate: Date.parse('13 Oct 2019 00:12:00 GMT')/1000,
     };
   },
 };
 </script>
+<style scoped>
+.death-title{
+  color: red;
+}
+</style>
