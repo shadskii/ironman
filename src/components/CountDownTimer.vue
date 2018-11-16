@@ -57,7 +57,6 @@ export default {
 <style>
 .block {
     display: inline-block;
-    height: 100&;
     margin-right: 1em;
 }
 </style>

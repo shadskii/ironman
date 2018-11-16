@@ -36,4 +36,7 @@ export default {
 .death-title{
   color: red;
 }
+body{
+   background-color: black;
+}
 </style>
