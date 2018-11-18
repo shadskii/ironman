@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/ironman/js/chunk-vendors.628f6bf7.js"
   },
   {
-    "revision": "feb1c8e0d4d68c743f80",
-    "url": "/ironman/js/app.7d646109.js"
+    "revision": "bfabeaf07084081a1fb4",
+    "url": "/ironman/js/app.9a96c7b8.js"
   },
   {
-    "revision": "27014df55f126546840d90feb0d7b9d5",
+    "revision": "e1ecaeca74f0ab5f4bbbfeac31f7171f",
     "url": "/ironman/index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ironman/css/chunk-vendors.0a7191b6.css"
   },
   {
-    "revision": "feb1c8e0d4d68c743f80",
-    "url": "/ironman/css/app.01ca4fa2.css"
+    "revision": "bfabeaf07084081a1fb4",
+    "url": "/ironman/css/app.2d013d60.css"
   }
 ];
