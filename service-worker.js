@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ironman/precache-manifest.708c937cab5f648c6eaed95747857228.js"
+  "/ironman/precache-manifest.4bd4adb4778df6a5c62cb934a9deab47.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ironman"});
