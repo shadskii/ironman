@@ -2,6 +2,7 @@
   <v-container>
     <v-layout
       text-xs-center
+      column
     >
 
       <v-flex xs12>
@@ -18,9 +19,26 @@
               class="push"
               :date="ironmanDate"
             />
+
           </v-layout>
         </v-img>
-
+        &nbsp;
+      </v-flex>
+      <v-flex
+        xs12
+      >
+        <span
+          class="font-weight-thin display-1"
+          v-text="'Louisville, KY'"
+        />
+      </v-flex>
+      <v-flex
+        xs12
+      >
+        <span
+          class="font-weight-thin title"
+          v-text="'October 13th, 2019'"
+        />
       </v-flex>
     </v-layout>
   </v-container>

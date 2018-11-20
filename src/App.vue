@@ -10,7 +10,9 @@
 
     <v-content>
       <v-container>
-        <main-layout />
+        <v-slide-y-transition appear>
+          <main-layout />
+        </v-slide-y-transition>
       </v-container>
     </v-content>
   </v-app>
