@@ -28,7 +28,7 @@
         xs12
       >
         <span
-          class="font-weight-thin display-1"
+          class="font-weight-light display-1"
           v-text="'Louisville, KY'"
         />
       </v-flex>
