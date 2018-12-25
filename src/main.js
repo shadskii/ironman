@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import './plugins/vuetify';
 import App from './App.vue';
+import '@babel/polyfill';
 import './registerServiceWorker';
 
 Vue.config.productionTip = false;
